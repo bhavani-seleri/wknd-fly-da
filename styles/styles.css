@@ -21,6 +21,8 @@
 }
 */
 
+@import url('./industry-specific/wknd/wknd.css');
+
 :root {
   /* colors */
   --background-color: var(--brand-background-color, #ffffff);
@@ -926,3 +928,7 @@ table {
 }
 
 /* Responsive styles- end */
+
+main .section[data-sec-alignment="center"] .default-content-wrapper {
+  text-align: center;
+}
